@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> MY WEBPAGE! </title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+	
+		<style>
+			h1
+			{
+				font-weight:bold;
+				font-style:italic;
+				font-size:40px;
+				color:#9400D3;
+			}
+			th
+			{
+				background-color:lightgrey;
+				border-collapse:collapse;
+			}
+			th,td
+			{
+				border:2px solid black;
+				padding:1px;
+				margin:2px;
+			}
+			ol>li{
+			color:red;
+			}
+			.span
+			{
+				background-color:#ffccff;
+			}
+			button:hover
+			{
+				background-color:teal;
+			}
+			div p
+			{
+				background-color:lightgreen;
+			}
+			
+			.row>div
+			{
+				padding:20px;
+				background-color:teal;
+				margin:2px;
+				font-family:Arial ,sans-serif;
+			}
+			@media print
+			{
+				.screen-only
+				{
+					display:none;
+				}
+			}
+			a::before{
+				content:"\21d2 Click here: ";
+				font-weight:bold;
+				}
+		</style>
+	</head>
+	<body>
+		<div>
+			<h1> BY RUSHINA SHAH </h1>
+			<p> With lots of efforts finally this was possible! 	
+				Thanks
+			</p>
+		</div>
+		<br>
+		
+		<table>
+			<tr>
+				<th> NAME </th>
+				<th> SURNAME </th>
+				<th> ID </th>
+			</tr>
+			<tr>
+				<td> Rush </td>
+				<td> Shah</td>
+				<td> 1 </td>
+			</tr>
+			<tr>
+				<td> Pari </td>
+				<td> Shah </td>
+				<td> 2 </td>
+			<tr>
+		</table>
+		<br>
+		
+		<form>
+		<div class="span">
+			<div class="form-group">
+				<label for="exampleInputEmail1">Email address</label>
+				<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+				<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+			</div>
+			<div class="form-group">
+				<label for="exampleInputPassword1">Password</label>
+				<input type="password" class="form-control" id="exampleInputPassword1">
+			</div>
+			<div class="form-group form-check">
+				<input type="checkbox" class="form-check-input" id="exampleCheck1">
+				<label class="form-check-label" for="exampleCheck1">Check me out</label>
+			</div>
+			<button type="submit" class="btn btn-primary">Submit</button>
+		</div>
+		</form>
+		<br>
+		ORDERED LIST
+		<ol>
+			<li> list1 </li>
+			<li> list2 </li>
+			<li> list3 </li>
+			UNORDERED LIST
+			<ul>
+				<li> list4 </li>
+				<li> list5</li>
+				<li> list6 </li>
+			</ul>
+		</ol>
+		<br>
+		
+		IMAGE HERE IS VERY PRETTY
+		<br>
+		<img src="IMG-20170206-WA0000.jpg" alt="me and di" height="50%" width="50%">
+		<br>
+		Preparing a grid
+		<br>
+		<div class="container">
+		 <div class="row">
+			<div class="col-lg-3 col-sm-6">
+			This is first column
+			</div>
+			<div class="col-lg-3 col-sm-6">
+			This is second column
+			</div>
+			<div class="col-lg-3 col-sm-6">
+			This is third column
+			</div>
+			<div class="col-lg-3 col-sm-6">
+			This is fourth column
+			</div>
+			<div class="col-lg-3 col-sm-6">
+			This is fifth column
+			</div>
+			<div class="col-lg-3 col-sm-6">
+			This is sixth column
+			</div>
+		 </div>
+		</div>
+		<ol>
+			<li><a href="#section1">Section1</a></li>
+			<li><a href="#section2">Section2</a></li>
+			<li><a href="#section3">Section3</a></li>
+		</ol>
+		<h2 id="section1"> Section1</h2>
+		<p> LOREM IS A GOOD BOY.
+			HEY TOM.
+			HELLO.
+			OKAY BYE.
+			so ya i know that it is a good colour.
+			okay.
+		</p>
+		<h2 id="section2"> Section2</h2>
+		<p> LOREM IS A GOOD BOY.
+			HEY TOM.
+			HELLO.
+			OKAY BYE.
+			so ya i know that it is a good colour.
+			okay.
+		</p>
+		<h2 id="section3"> Section3</h2>
+		<p> LOREM IS A GOOD BOY.
+			HEY TOM.
+			HELLO.
+			OKAY BYE.
+			so ya i know that it is a good colour.
+			okay.
+		</p>
+		<br>
+		<a href="https://google.com">CLICK HERE TO GO TO GOOGLE</a>
+		<br>
+		MEDIA EXAMPLE
+		<p>THIS PARA WILL BE AVAILABLE WHILE PRINTING</p>
+		<p class="screen-only"> THIS PARA WONT BE AVAILABLE WHILE PRINTING </p>
+		<br>
+		EXAMPLE OF PSEUDO ELEMENTS
+		<ul>
+			<li><a href="#">one link</a></li>
+			<li><a href="#">second link</a></li>
+			<li><a href="#">third link</a></li>
+		</ul>
+	</body>
+</html>
+
+		
+		
+		
